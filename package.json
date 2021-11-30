@@ -1,5 +1,5 @@
 {
-	"name": "react-portfolio",
+	"name": "portfolio",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -25,7 +25,8 @@
 	},
 	"eslintConfig": {
 		"extends": [
-			"wesbos"
+			"wesbos",
+			"react-app"
 		],
 		"rules": {
 			"react/prop-types": 0
