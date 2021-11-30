@@ -57,12 +57,8 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
-          <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
-            performance rate.
-          </PText>
+          <h1 className="footer__col1__title">Abhinav Karforma</h1>
+          <PText>I am a web developer from Godda Jharkhand, India.</PText>
         </div>
         <div className="footer__col2">
           <FooterCol
@@ -96,15 +92,11 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: 'abhinavkarforma2@gmail.com',
+                path: 'abhinavkarforma2@gmail.com',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
-              },
-              {
-                title: 'GEC Circle, Chittagong, Bangladesh',
+                title: 'Godda Jharkhand India',
                 path: 'http://google.com/maps',
               },
             ]}
@@ -133,10 +125,14 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
-            </a>{' '}
+            © 2021 - Abhinav Karforma | Designed By
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/Abhinav0909"
+            >
+              Abhinav Karforma
+            </a>
           </PText>
         </div>
       </div>
