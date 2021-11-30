@@ -52,7 +52,7 @@ export default function Map() {
           <PText>Godda Jharkhand</PText>
           <a
             className="map__card__link"
-            href="https://www.google.com/maps/place/GEC+More,+Chittagong/@22.3590818,91.8195583,17z/data=!3m1!4b1!4m5!3m4!1s0x30acd89aaa8239cd:0x6e65fa00001dd59f!8m2!3d22.3590715!4d91.8215486"
+            href="https://www.google.com/maps/place/Godda,+Jharkhand+814133/@24.8198204,87.1755904,13z/data=!3m1!4b1!4m5!3m4!1s0x39f0f4d709eb7969:0xc912dadb4b0ad986!8m2!3d24.8255215!4d87.2135177"
             target="_blank"
             rel="noreferrer"
           >
