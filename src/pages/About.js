@@ -1,3 +1,4 @@
+/* eslint-disable react/button-has-type */
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import styled from 'styled-components';
@@ -44,6 +45,9 @@ const AboutPageStyles = styled.div`
   .right {
     img {
       border: 2px solid var(--gray-1);
+      margin:25px;
+      width:380px;
+     
     }
   }
   .about__info__items {
@@ -104,7 +108,11 @@ export default function About() {
                   place.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              <a href="/abhinav_resume.pdf" download='Resume'>
+                <button style ={{width:'200px',height:'50px',backgroundColor:'white',borderRadius:'10px',color:'black',fontSize:'18px',fontFamily:'sans-serif',cursor:'pointer'}}>Download Resume</button>
+              </a>
+              {/* <Button btnText='Download CV' >{(e)=>{e.preventDefault() window.print()}}</Button> */}
+             
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
@@ -122,17 +130,14 @@ export default function About() {
                 title="High School"
                 items={['Ramkrishnan mission Vidyapith Deoghar']}
               />
-              <AboutInfoItem
-                title="College"
-                items={['S.R.M University']}
-              />
+              <AboutInfoItem title="College" items={['S.R.M University']} />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT','Next']}
+                items={['HTML', 'CSS', 'JavaScript', 'REACT', 'Next']}
               />
               <AboutInfoItem
                 title="BackEnd"
@@ -154,7 +159,7 @@ export default function About() {
                 title="16/10/2021-16/11/2021"
                 items={['Web developer in cyberexplore']}
               />
-               <AboutInfoItem
+              <AboutInfoItem
                 title="05/2021-Present"
                 items={['Software Developer in techanalogy']}
               />
