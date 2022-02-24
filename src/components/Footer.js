@@ -93,7 +93,7 @@ export default function Footer() {
             links={[
               {
                 title: 'abhinavkarforma2@gmail.com',
-                path: 'abhinavkarforma2@gmail.com',
+                path: 'mailto:abhinavkarforma2@gmail.com',
               },
               {
                 title: 'Godda Jharkhand India',
@@ -107,16 +107,12 @@ export default function Footer() {
             heading="social Links"
             links={[
               {
-                title: 'Facebook',
-                path: 'http://facebook.com',
+                title: 'Linkedin',
+                path: 'https://www.linkedin.com/in/abhinav-karforma-04218619a/',
               },
               {
-                title: 'Twitter',
-                path: 'http://twitter.com',
-              },
-              {
-                title: 'Instagram',
-                path: 'http://instagram.com',
+                title: 'Github',
+                path: 'https://github.com/Abhinav0909',
               },
             ]}
           />
@@ -125,7 +121,7 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2021 - Abhinav Karforma | Designed By
+            © 2022 - Abhinav Karforma | Designed By
             <a
               target="_blank"
               rel="noreferrer"
