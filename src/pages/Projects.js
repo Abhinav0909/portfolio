@@ -10,7 +10,7 @@ const ProjectStyle = styled.div`
   .projects__allItems {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 5rem;
+    gap: 2rem;
     margin-top: 5rem;
   }
   .projects__searchBar {

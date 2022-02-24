@@ -34,8 +34,8 @@ export default function ServicesSection() {
         >
           <ServicesSectionItem
             icon={<MdDesktopMac />}
-            title="Full stack developer"
-            desc="I am a full stack developer."
+            title="Software developer"
+            desc="I am a Software developer and a open source entuthiast and keen to know various tech stacks availiable.I am also interested in chrome extension developer tools.Always eager to avail the opportunities"
           />
         </div>
       </div>

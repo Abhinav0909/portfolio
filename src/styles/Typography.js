@@ -1,34 +1,30 @@
 import { createGlobalStyle } from 'styled-components';
-import RobotoMonoRegular from '../assets/fonts/RobotoMono-Regular.ttf';
-import MontserratSemiBold from '../assets/fonts/Montserrat-SemiBold.ttf';
-import MontserratBold from '../assets/fonts/Montserrat-Bold.ttf';
 
 const Typography = createGlobalStyle`
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans&family=Raleway:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans&family=Raleway:ital,wght@1,100&display=swap');
   @font-face {
-    font-family: 'RobotoMono Regular';
-    src: url(${RobotoMonoRegular});
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
   }
   @font-face {
-    font-family: 'Montserrat SemiBold';
-    src: url(${MontserratSemiBold});
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
   }
   @font-face {
-    font-family: 'Montserrat Bold';
-    src: url(${MontserratBold});
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
   }
   html{
-    font-family: 'RobotoMono Regular';
+    font-family: 'Raleway', sans-serif;;
     color: var(--gray-1);
   }
   *{
-    font-family: 'RobotoMono Regular';
+    font-family: 'Raleway', sans-serif;
     color: var(--gray-1);
   }
   h1,h2,h3,h4,h5,h6{
-    font-family: 'Montserrat SemiBold'
+    font-family:'Raleway', sans-serif'
   }
 
 `;

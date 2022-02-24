@@ -1,5 +1,7 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import styled from 'styled-components';
+import ReactTypingEffect from 'react-typing-effect';
 import HeroImg from '../assets/images/hero.png';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
@@ -26,7 +28,7 @@ const HeroStyles = styled.div`
       width: 100%;
     }
     .hero__name {
-      font-family: 'Montserrat SemiBold';
+      font-family: "Montserrat SemiBold";
       font-size: 7rem;
       color: var(--white);
     }
@@ -152,9 +154,8 @@ export default function HeroSection() {
     <HeroStyles>
       <div className="hero">
         <div className="container">
-          <h1 className="hero__heading">
-            <span>Hello, This is</span>
-            <span className="hero__name">Abhinav Karforma</span>
+          <h1 className="hero__heading" style={{ color: 'black' }}>
+            <ReactTypingEffect text={['This', 'is', 'Abhinav', 'Karforma']} />
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
@@ -175,34 +176,25 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com"
+                    href="https://www.instagram.com/abhinavkarforma/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    FB
+                    IN
                   </a>
                 </li>
                 <li>
-                  <a href="http://twitter.com" target="_blank" rel="noreferrer">
-                    TW
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://isntagram.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    IG
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://webcifar.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href="https://www.linkedin.com/in/abhinav-karforma-04218619a/" target="_blank" rel="noreferrer">
                     LI
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/Abhinav0909"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GI
                   </a>
                 </li>
               </ul>

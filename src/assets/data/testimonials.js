@@ -15,5 +15,13 @@ const testimonials = [
     desc:
       'Really amazing communication skills. Always understand what I am trying to achieve. Also, his work is really amazing. Do really high-quality work.',
   },
+  {
+    id: 3,
+    name: 'Harshal Raikwar',
+    title: 'Friend',
+    org: 'Former TechAnalogy',
+    desc:
+      "I had the pleasure of knowing Abhinav from the beginning of college, during which we worked on a lot of different types of projects. Above all, I was impressed with Abhinav's ability to solve problems, build scalable web apps, and punctuality. And, of course, his never-give-up spirit.",
+  },
 ];
 export default testimonials;

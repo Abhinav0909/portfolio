@@ -17,6 +17,7 @@
 		"react-router-dom": "^5.2.0",
 		"react-scripts": "4.0.3",
 		"react-transition-group": "^4.4.1",
+		"react-typing-effect": "^2.0.5",
 		"styled-components": "^5.2.2",
 		"swiper": "^6.5.4",
 		"uuid": "^8.3.2",
@@ -30,8 +31,7 @@
 	},
 	"eslintConfig": {
 		"extends": [
-			"wesbos",
-			"react-app"
+			"wesbos"
 		],
 		"rules": {
 			"react/prop-types": 0

@@ -79,14 +79,26 @@ export default function AboutSection() {
             subheading="Let me introduce myself"
             heading="About Me"
           />
-          <PText>I am a web developer from Godda Jharkhand, India.</PText>
+          <PText>
+            I am a web developer from Godda Jharkhand, India.I always try to
+            solve a problem in a very intutive way
+          </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />
             <Button btnText="Read More" btnLink="/about" outline />
           </div>
         </div>
         <div className="aboutSection__right">
-          <img className="aboutImg" src={AboutImg} alt="Img" />
+          <h1 style={{ marginBottom: '10px' }}>
+            Tech Stacks that I am familiar with <br />
+            and knowledge of courses which I have acquired{' '}
+          </h1>
+          <p style={{ fontSize: '1.4rem' }}>
+            React,Typescript,Javascript,Java,Next,Node,ExpressSql,Mongodb,Mysql2
+          </p>
+          <p style={{ fontSize: '1.4rem' }}>
+            DBMS,Data Structure and Algorithms
+          </p>
         </div>
       </div>
     </AboutSectionStyles>
