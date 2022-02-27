@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import styled from 'styled-components';
 import Button from './Button';
@@ -65,6 +66,10 @@ const AboutSectionStyles = styled.div`
         width: 100%;
         text-align: center;
       }
+      about-me {
+        max-width: 5px;
+        text-align: center;
+      }
     }
   }
 `;
@@ -78,7 +83,7 @@ export default function AboutSection() {
             subheading="Let me introduce myself"
             heading="About Me"
           />
-          <PText>
+          <PText className="about-me">
             I am a web developer from Godda Jharkhand, India.I always try to
             solve a problem in a very intutive way
           </PText>
@@ -87,17 +92,18 @@ export default function AboutSection() {
             <Button btnText="Read More" btnLink="/about" outline />
           </div>
         </div>
-        <div className="aboutSection__right">
+        <div style={{ marginTop: '4rem' }}>
           <h1 style={{ marginBottom: '10px' }}>
             Tech Stacks that I am familiar with <br />
             and knowledge of courses which I have acquired{' '}
           </h1>
-          <p style={{ fontSize: '1.4rem' }}>
-            React,Typescript,Javascript,Java,Next,Node,ExpressSql,Mongodb,Mysql2
-          </p>
-          <p style={{ fontSize: '1.4rem' }}>
-            DBMS,Data Structure and Algorithms
-          </p>
+          <div className="stacks">
+            <PText>
+              React,Typescript,Javascript,Java,Next,Node,<br/> ExpressSql,Mongodb,Mysql2
+            </PText>
+            {/* <p style={{ fontSize: '1.4rem' }}> */}
+            <PText>DBMS,Data Structure and Algorithms</PText>
+          </div>
         </div>
       </div>
     </AboutSectionStyles>
